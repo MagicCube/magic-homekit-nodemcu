@@ -1,0 +1,5 @@
+{
+    "port": "/dev/cu.wchusbserial1410",
+    "baudrate": "115200",
+    "optimize": true
+}
