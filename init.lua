@@ -1,4 +1,8 @@
 stop = false
+
+WIFI_SSID = "Henry's Living Room 2.4GHz";
+WIFI_PWD = "13913954971";
+
 print("***************************")
 print("* Hello from MaigcHomekit *")
 print("***************************")
@@ -25,7 +29,7 @@ function startup()
 end
 
 function joinAP()
-    connectToAP("Henry's Living Room 2.4GHz", "13913954971")
+    connectToAP(WIFI_SSID, WIFI_PWD)
     print("Connecting to WIFI...");
     tmr.alarm(1, 1000, tmr.ALARM_AUTO, function()
         if getWifiStatus() == 2 then
