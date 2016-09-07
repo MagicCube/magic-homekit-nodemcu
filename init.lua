@@ -1,7 +1,7 @@
 stop = false
-print("**********************")
-print("* Hello, NodeMCUer   *")
-print("**********************")
+print("***************************")
+print("* Hello from MaigcHomekit *")
+print("***************************")
 
 require("server")
 
